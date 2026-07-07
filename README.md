@@ -9,7 +9,7 @@ Core Modules & Features
 
 ## 📸 Demo
 
-![Project Walkthrough](https://path-to-your-demo-gif.gif)
+![Project Walkthrough](http://127.0.0.1:5500/wel.html))
 
 ## 🛠️ Tech Stack
 HTML
