@@ -6,7 +6,8 @@ Core Modules & Features
              1. User ModuleRegistration & Profile: Users can create and secure accounts, maintain wishlists, and track their past purchase history.Product Catalog: Visitors can search, filter (by price, category, or brand), and view detailed product specifications and images.
             2. Shopping & CheckoutCart Management: Customers can easily add, remove, or modify the quantity of items before finalizing their purchase.Secure Payments: Integration with trusted payment gateways ensures safe transactions via Credit/Debit Cards, UPI, Net Banking, or Cash on Delivery (COD).
             3. Admin PanelInventory & Catalog Management: Administrators can add, update, or remove products and product categories.Order Fulfillment: Staff can view incoming orders, update shipping statuses, process refunds, and generate invoices.
-📸 Demo
+
+## 📸 Demo
 
 ![Project Walkthrough](https://path-to-your-demo-gif.gif)
 
