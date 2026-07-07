@@ -44,7 +44,7 @@ The system offers a user-friendly interface that makes online shopping simple an
 ## Screenshots
 
 ### Home Page
-![Home Page](images/w1.png)
+![Home Page](images/wellcome/w1.png)
 
 ### Product Page
 ![Product Page](images/productpage.png)
