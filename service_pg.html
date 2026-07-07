@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>service</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+body{
+    background:#f5f5f5;
+}
+
+.logo{
+    color:#9c1d75;
+    font-size:40px;
+    font-weight:bold;
+}
+
+.category-menu{
+    background:#fff;
+    padding:10px;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+}
+
+.category-menu a{
+    text-decoration:none;
+    color:#333;
+    margin-right:20px;
+    font-weight:500;
+}
+
+.sidebar{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+}
+
+.product-card{
+    background:white;
+    border-radius:10px;
+    overflow:hidden;
+    transition:.3s;
+}
+
+.product-card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 0 15px rgba(0,0,0,0.15);
+}
+
+.product-card img{
+    height:250px;
+    width:100%;
+    object-fit:cover;
+}
+
+.price{
+    font-size:28px;
+    font-weight:bold;
+}
+
+.rating{
+    background:green;
+    color:white;
+    padding:3px 8px;
+    border-radius:15px;
+    font-size:14px;
+}
+</style>
+
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg bg-white shadow-sm">
+<div class="container-fluid">
+
+<a class="navbar-brand logo" href="#">Store</a>
+
+<form class="d-flex w-50">
+<input class="form-control" type="search"
+placeholder="Search Products">
+</form>
+
+<ul class="navbar-nav ms-auto">
+<li class="nav-item">
+<a class="nav-link" href="#">Profile</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#">Cart</a>
+</li>
+</ul>
+
+</div>
+</nav>
+
+<!-- Categories -->
+<div class="category-menu">
+<div class="container-fluid">
+
+<a href="cloths.html">cloths</a>
+<a href="foot.html">Footwear</a>
+<a href="beauty.html">Beauty</a>
+<a href="jewe.html">Jewellery</a>
+
+</div>
+</div>
+
+<div class="container-fluid mt-4">
+
+<h2 class="mb-4">Products For You</h2>
+
+<div class="row">
+
+<!-- Sidebar -->
+<div class="col-md-3">
+
+<div class="sidebar">
+
+<h5>Filters</h5>
+
+<hr>
+
+<h6>Category</h6>
+
+<div class="form-check">
+<label class="form-check-label">
+Women T-Shirts
+</label>
+</div>
+
+<div class="form-check">
+<label class="form-check-label">
+Kurtis
+</label>
+</div>
+
+<div class="form-check">
+<label class="form-check-label">
+neckless
+</label>
+</div>
+
+<div class="form-check">
+<label class="form-check-label">
+lipstick
+</label>
+</div>
+
+<div class="form-check">
+<label class="form-check-label">
+blush
+</label>
+</div>
+
+<div class="form-check">
+<label class="form-check-label">
+shoes
+</label>
+</div>
+
+<div class="form-check">
+<label class="form-check-label">
+brush
+</label>
+</div>
+
+<div class="form-check">
+<label class="form-check-label">
+sandle
+</label>
+</div>
+
+<div class="form-check">
+<label class="form-check-label">
+lehanga
+</label>
+</div>
+
+</div>
+
+</div>
+
+<!-- Products -->
+<div class="col-md-9">
+
+<div class="row">
+
+<!-- Product 1 -->
+<div class="col-md-4 mb-4">
+<div class="product-card">
+
+<img src="https://pub-95ccf2d427eb4955a7de1c41d3fa57dd.r2.dev/blog-g3fashion-com/2025/01/2-2.jpg" height="200px" width="200px"  alt="">
+
+<div class="p-3">
+
+<h6>Rayon Slub Women Lehanga</h6>
+
+<div class="price">
+₹426
+</div>
+
+<p class="text-success">
+10% OFF
+</p>
+
+<span class="rating">
+4.2 ★
+</span>
+
+</div>
+</div>
+</div>
+
+<!-- Product 2 -->
+<div class="col-md-4 mb-4">
+<div class="product-card">
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuazLl4dxVnTZ0ydXjqy9iTl6gEn2Lu7Ibcg&s" height="200px" width="200px" alt="">>
+
+<div class="p-3">
+
+<h6>Kurti With Dupatta</h6>
+
+<div class="price">
+₹289
+</div>
+
+<p class="text-success">
+45% OFF
+</p>
+
+<span class="rating">
+4.3 ★
+</span>
+
+</div>
+</div>
+</div>
+
+<!-- Product 3 -->
+<div class="col-md-4 mb-4">
+<div class="product-card">
+
+<img src="https://www.aldoshoes.in/on/demandware.static/-/Sites-aldo_master_catalog/default/dw6fccb87f/large/JULIETTEE963_1.jpg" height="200px" width="200px"  alt="">
+
+<div class="p-3">
+
+<h6>Simple Neckless</h6>
+
+<div class="price">
+₹399
+</div>
+<p class="text-success">
+35% OFF
+</p>
+
+
+<span class="rating">
+4.8 ★
+</span>
+
+</div>
+</div>
+</div>
+<!--product 4-->
+
+<div class="col-md-4 mb-4">
+<div class="product-card">
+
+<img src="https://assets.myntassets.com/w_412,q_50,,dpr_3,fl_progressive,f_webp/assets/images/24489128/2023/8/14/919687e0-1834-4d2b-9c31-2ae3f07301ec1692011804191SarafRSJewelleryGold-TonedClassicDropEarrings1.jpg" height="200px" width="200px"  alt="">
+
+<div class="p-3">
+
+<h6> Royal Earing </h6>
+
+<div class="price">
+₹250
+</div>
+<p class="text-success">
+20% OFF
+</p>
+
+
+<span class="rating">
+4.0 ★
+</span>
+
+</div>
+</div>
+</div>
+
+<!--product 5-->
+<div class="col-md-4 mb-4">
+<div class="product-card">
+
+<img src="https://m.media-amazon.com/images/I/61gHTkWPRcL._AC_UF350,350_QL80_.jpg" height="200px" width="200px"  alt=""> 
+">
+
+<div class="p-3">
+
+<h6>Korian Golssy Lipstic</h6>
+
+<div class="price">
+₹400
+</div>
+<p class="text-success">
+15% OFF
+</p>
+
+<span class="rating">
+4.2 ★
+</span>
+
+</div>
+</div>
+</div>
+
+<!--product 6-->
+<div class="col-md-4 mb-4">
+<div class="product-card">
+
+<img src="https://swissbeauty.in/cdn/shop/files/ES01_FOP_BOP_1_14728c43-6a32-49ed-98ec-4fe73ccd38c4.jpg?v=1756106815&width=620" height="200px" width="200px"  alt="">
+
+<div class="p-3">
+
+<h6> Mystic Glam Shade</h6>
+
+<div class="price">
+₹505
+</div>
+<p class="text-success">
+40% OFF
+</p>
+
+<span class="rating">
+4.3 ★
+</span>
+
+</div>
+</div>
+</div>
+<!--product7-->
+
+<div class="col-md-4 mb-4">
+<div class="product-card">
+
+<img src="https://webladieshub.com/wp-content/uploads/2025/07/Fancy-Slip-on-Slippers-616.jpg" height="200px" width="200px" alt="">
+
+<div class="p-3">
+
+<h6>Sandle</h6>
+
+<div class="price">
+₹700
+</div>
+
+<p class="text-success">
+10% OFF
+</p>
+
+<span class="rating">
+4.2 ★
+</span>
+
+</div>
+</div>
+</div>
+<!--product 8-->
+
+<div class="col-md-4 mb-4">
+<div class="product-card">
+
+<img src="https://images.meesho.com/images/products/307708119/p7u53_512.webp?width=360" height="200px" width="200px" alt="">
+
+<div class="p-3">
+
+<h6>Boots</h6>
+
+<div class="price">
+₹850
+</div>
+
+<p class="text-success">
+5% OFF
+</p>
+
+<span class="rating">
+4.7 ★
+</span>
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+</div>
+
+</body>
+</html>
