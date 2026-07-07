@@ -47,7 +47,7 @@ The system offers a user-friendly interface that makes online shopping simple an
 ![Home Page](w1.png)
 
 ### Shopping Cart
-![Shopping Cart](Shopping crt.png)
+![Shopping Cart](Shopping cart.png)
 
 ## 🎯 Objective
 
